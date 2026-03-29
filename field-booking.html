@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>حجز الملعب | بلستان</title>
+<meta name="description" content="احجز ملعب بلستان بسرعة وسهولة، واختر اليوم ووقت الحجز المناسب لمباراتك.">
+  <link rel="stylesheet" href="field-booking.css" />
+</head>
+<body>
+  <div class="booking-page">
+    <div class="booking-card">
+      <h1>نموذج حجز الملعب</h1>
+      <p class="subtitle">يرجى تعبئة البيانات التالية لإتمام طلب حجز الملعب</p>
+
+      <form id="fieldBookingForm" class="booking-form">
+        <div class="form-group">
+          <label for="fullName">الاسم الكامل</label>
+          <input type="text" id="fullName" name="fullName" placeholder="اكتب اسمك الكامل" required />
+        </div>
+
+        <div class="form-group">
+          <label for="playersCount">عدد اللاعبين</label>
+          <input type="number" id="playersCount" name="playersCount" min="1" placeholder="مثلاً 10" required />
+        </div>
+
+        <div class="form-group">
+          <label for="day">اليوم</label>
+          <select id="day" name="day" required>
+            <option value="">اختر اليوم</option>
+            <option value="الأحد">الأحد</option>
+            <option value="الاثنين">الاثنين</option>
+            <option value="الثلاثاء">الثلاثاء</option>
+            <option value="الأربعاء">الأربعاء</option>
+            <option value="الخميس">الخميس</option>
+            <option value="الجمعة">الجمعة</option>
+            <option value="السبت">السبت</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="date">التاريخ</label>
+          <input type="date" id="date" name="date" required />
+        </div>
+
+        <div class="form-group">
+          <label for="startTime">وقت بداية الحجز</label>
+          <input type="time" id="startTime" name="startTime" required />
+        </div>
+
+        <div class="form-group">
+          <label for="endTime">وقت نهاية الحجز</label>
+          <input type="time" id="endTime" name="endTime" required />
+        </div>
+
+        <div class="form-group full-width">
+          <label for="notes">ملاحظات إضافية</label>
+          <textarea id="notes" name="notes" rows="4" placeholder="أي ملاحظة إضافية..."></textarea>
+        </div>
+
+        <div class="note-box full-width">
+          <strong>ملاحظة:</strong>
+          يرجى الالتزام بوقت الحجز المحدد، ويُفضل الحضور قبل الموعد بـ 10 دقائق.
+        </div>
+
+        <button type="submit" class="submit-btn">إرسال حجز الملعب عبر واتساب</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="field-booking.js"></script>
+</body>
+</html>

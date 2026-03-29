@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <link rel="icon" type="image/png" href="logo.jpeg">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>بلستان | كافي وملعب</title>
+<meta name="description" content="بلستان يوفر غرفًا خاصة للاسترخاء والمتعة مع إمكانية حجز ملعب بسهولة وسرعة.">
+<meta name="keywords" content="بلستان, غرف خاصة, حجز غرف, ملعب, كافي, بار, بلستان, balstan, Balstan coffee, حجز ملعب, جلسات خاصة">  
+<link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="brand">
+      <img src="logo.jpeg" alt="Balstan Logo" class="logo-img">
+      <div class="brand-text">
+        <h2>بلستان</h2>
+        <p>Bar & Café</p>
+      </div>
+    </div>
+
+    <nav class="nav-links">
+      <a href="#home">الرئيسية</a>
+      <a href="#rooms">الغرف الخاصة</a>
+      <a href="#field">الملعب</a>
+      <a href="#contact">تواصل معنا</a>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="mobile-floating-logo">
+  <img src="logo.jpeg" alt="Balstan Logo" />
+</div>
+  <div class="hero-slider">
+    <div class="slide active"></div>
+    <div class="slide"></div>
+    <div class="slide"></div>
+  </div>
+
+  <div class="hero-overlay"></div>
+
+  <div class="hero-content">
+    <span class="badge">✨ تجربة فريدة لا تُنسى</span>
+    <h1>بلستان</h1>
+    <p>مساحتك الخاصة للاسترخاء والمتعة</p>
+
+    <div class="hero-buttons">
+      <button class="primary-btn" onclick="scrollToSection('rooms')">احجز غرفة خاصة</button>
+      <button class="secondary-btn" onclick="scrollToSection('field')">احجز الملعب</button>
+    </div>
+  </div>
+</section>
+
+  <section class="stats">
+  <div class="glass-card clickable-card" onclick="scrollToSection('rooms')">
+  <span class="glass-number">4</span>
+  <p>غرف خاصة فاخرة</p>
+</div>
+
+<div class="glass-card clickable-card" onclick="scrollToSection('field')">
+  <span class="glass-icon">⚽</span>
+  <p>ملعب كرة قدم مصغر</p>
+</div>
+
+<div class="glass-card clickable-card" onclick="scrollToSection('contact')">
+  <span class="glass-icon">🌳</span>
+  <p>حديقة خارجية مريحة</p>
+</div>
+</section>
+
+  <section id="rooms" class="section">
+    <div class="section-header">
+      <span>الغرف الخاصة</span>
+      <h2>جلسات بطابع أنيق ومريح</h2>
+      <div class="note-card">
+  <span class="note-title">ملاحظة مهمة</span>
+  <p>الغرف الخاصة مخصصة للمجموعات التي يزيد عددها عن 3 أشخاص فقط.</p>
+</div>
+    </div>
+
+   <div class="cards">
+  <div class="card">
+    <img src="room1.jpg" alt="غرفة 1" class="room-img">
+    <h3>غرفة خاصة 1</h3>
+    <p class="room-subtitle">طاولة وكراسي</p>
+    <p>غرفة مريحة وفاخرة مناسبة للجلسات الطويلة.</p>
+    <a href="booking.html?room=1" class="card-book-btn">احجز الآن</a>
+  </div>
+
+  <div class="card">
+    <img src="room1.jpg" alt="غرفة 2" class="room-img">
+    <h3>غرفة خاصة 2</h3>
+    <p class="room-subtitle">طاولة وكراسي</p>
+    <p>مثالية للجلسات الصغيرة والأوقات الهادئة.</p>
+    <a href="booking.html?room=2" class="card-book-btn">احجز الآن</a>
+  </div>
+
+  <div class="card">
+    <img src="room1.jpg" alt="غرفة 3" class="room-img">
+    <h3>غرفة خاصة 3</h3>
+    <p class="room-subtitle">طاولة وكراسي</p>
+    <p>تصميم جميل ومساحة مناسبة للأصدقاء.</p>
+    <a href="booking.html?room=3" class="card-book-btn">احجز الآن</a>
+  </div>
+
+  <div class="card">
+    <img src="room2.jpg" alt="غرفة 4" class="room-img">
+    <h3>غرفة خاصة 4</h3>
+    <p class="room-subtitle">جلسة أرضية مريحة</p>
+    <p>جلسة مريحة بخصوصية عالية وأجواء شبابية ممتازة.</p>
+    <a href="booking.html?room=4" class="card-book-btn">احجز الآن</a>
+  </div>
+</div>
+  </section>
+
+  <section id="field" class="section dark-section">
+    <div class="section-header">
+      <span>الملعب</span>
+      <h2>ملعب كرة قدم مميز</h2>
+      <p>أجواء حماسية وحجز سريع للشباب ومحبي كرة القدم.</p>
+    </div>
+
+    <div class="field-box">
+      <div class="field-info">
+        <h3>احجز ملعبك الآن</h3>
+        <p>استمتع بمباراة ممتعة مع أصدقائك في ملعب مجهز وجاهز للحجز.</p>
+        <ul>
+          <li>إضاءة ليلية قوية</li>
+          <li>أرضية مناسبة للعب</li>
+          <li>حجز سريع ومباشر</li>
+        </ul>
+        <a href="field-booking.html" class="field-book-btn">احجز الملعب</a>
+      </div>
+
+      <div class="field-visual"></div>
+    </div>
+  </section>
+
+  <section class="garden-section" id="garden">
+  <div class="garden-fade-top"></div>
+  <div class="garden-overlay">
+    <span class="section-label">الحديقة</span>
+    <h2>استمتع بأجواء الحديقة</h2>
+    <p>جلسات خارجية مريحة ومساحة جميلة تناسب العائلات والأصدقاء.</p>
+    
+  </div>
+  <div class="garden-fade-bottom"></div>
+</section>
+
+  <section id="contact" class="section">
+    <div class="section-header">
+      <span>تواصل معنا</span>
+      <h2>زورنا أو احجز الآن</h2>
+      <p>تواصل معنا أو تابع صفحات بلستان على المنصات الاجتماعية.</p>
+    </div>
+
+    <div class="contact-box">
+      <button class="primary-btn" onclick="openMap()">عرض على الخريطة</button>
+      <div class="social-icons">
+  <a href="https://wa.me/9647807060109" target="_blank" class="social-icon whatsapp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <a href="https://www.instagram.com/balstan.cafe?igsh=aW4wbnZ0dTV2bTN3" target="_blank" class="social-icon instagram">
+    <i class="fa-brands fa-instagram"></i>
+  </a>
+
+  <a href="https://www.tiktok.com/@balsta_cafee?_r=1&_t=ZS-955pCffVtY2" target="_blank" class="social-icon tiktok">
+    <i class="fa-brands fa-tiktok"></i>
+  </a>
+  <a href="https://www.facebook.com/share/1DkW257128/" target="_blank" class="social-icon facebook">
+  <i class="fa-brands fa-facebook-f"></i>
+</a>
+  <div class="phone-dropdown">
+    <button class="social-icon phone-toggle" type="button">
+      <i class="fas fa-phone-alt"></i>
+    </button>
+
+    <div class="phone-menu">
+      <a href="tel:07503686346">6346 368 0750  </a>
+      <a href="tel:07807060109">0109 706 0780 </a>
+    </div>
+  </div>
+</div>
+<div class="contact-text">
+    <h2>زورنا أو احجز الآن</h2>
+    <p>تواصل معنا أو تابع صفحات بلستان على المنصات الاجتماعية.</p>
+  </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© 2026 Balstan - جميع الحقوق محفوظة</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
