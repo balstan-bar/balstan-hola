@@ -22,8 +22,7 @@ fieldForm.addEventListener("submit", function (e) {
 عدد اللاعبين: ${playersCount}
 اليوم: ${day}
 التاريخ: ${date}
-وقت البداية: ${startTime}
-وقت النهاية: ${endTime}
+وقت الحجز : ${startTime}
 ملاحظات إضافية: ${notes || "لا توجد"}`;
 
   const phoneNumber = "9647807060109";

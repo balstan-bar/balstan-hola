@@ -50,8 +50,7 @@ form.addEventListener("submit", function (e) {
 عدد الأشخاص: ${peopleCount}
 اليوم: ${day}
 التاريخ: ${date}
-من الساعة : ${startTime}
-إلى الساعة: ${endTime}
+وقت الحجز : ${startTime}
 ملاحظات إضافية: ${notes || "لا توجد"}`;
 
   const phoneNumber = "9647807060109"; // ضع رقم واتساب بلستان هنا بدون +
