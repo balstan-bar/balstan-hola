@@ -29,7 +29,6 @@ form.addEventListener("submit", function (e) {
   const day = document.getElementById("day").value;
   const date = document.getElementById("date").value;
   const startTime = document.getElementById("startTime").value;
-  const endTime = document.getElementById("endTime").value;
   const notes = document.getElementById("notes").value.trim();
 
   if (Number(peopleCount) <= 3) {
@@ -37,10 +36,7 @@ form.addEventListener("submit", function (e) {
     return;
   }
 
-  if (startTime >= endTime) {
-    alert("وقت نهاية الحجز يجب أن يكون بعد وقت بداية الحجز.");
-    return;
-  }
+  
 
   const message =
 `مرحباً، أود حجز غرفة في بلستان.

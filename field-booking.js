@@ -8,13 +8,9 @@ fieldForm.addEventListener("submit", function (e) {
   const day = document.getElementById("day").value;
   const date = document.getElementById("date").value;
   const startTime = document.getElementById("startTime").value;
-  const endTime = document.getElementById("endTime").value;
   const notes = document.getElementById("notes").value.trim();
 
-  if (startTime >= endTime) {
-    alert("وقت نهاية الحجز يجب أن يكون بعد وقت بداية الحجز.");
-    return;
-  }
+  
 
   const message = `مرحباً، أود حجز ملعب في بلستان.
 
